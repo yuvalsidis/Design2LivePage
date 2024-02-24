@@ -1,0 +1,16 @@
+.full{
+    grid-column: 1 / -1;
+}
+
+/* flex helpers */
+.flex{
+    display: flex;
+}
+
+/* list helpers */
+
+.clean_list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}  
