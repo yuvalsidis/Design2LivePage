@@ -55,6 +55,7 @@
     letter-spacing: 0.11em;
     grid-column: 2;
     grid-row: 3;
+    cursor: pointer;
 }
 
 .card-btn:hover{
@@ -79,6 +80,7 @@
     border: none;
     background-color: white;
     color: var(--primary--1);
+    cursor: pointer;    
 }
 
 .post-navigation .next{
@@ -86,4 +88,5 @@
     border: none;
     background-color: white;
     color: var(--primary--1);
+    cursor: pointer;    
 }
