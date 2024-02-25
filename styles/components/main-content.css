@@ -79,10 +79,12 @@
     font-size: 1.125rem;
     border: none;
     background-color: white;
+    color: var(--primary--1);
 }
 
 .post-navigation .next{
     font-size: 1.125rem;
     border: none;
     background-color: white;
+    color: var(--primary--1);
 }
