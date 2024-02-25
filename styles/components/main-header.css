@@ -6,9 +6,9 @@
     border-bottom: 10px solid black; 
 }
 
+
 .main-header > .logo{
     grid-column: 2;
-    font-size: 2.5em;
 }
 
 .main-header > .main-nav{

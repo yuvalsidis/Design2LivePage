@@ -12,32 +12,3 @@
     grid-column: 1 / -1;  
 }
 
-
-/* Card Layout */
-
-.main-content{
-    display: grid;
-    grid-template-rows: minmax(20px, 1fr) 47x;
-}
-
-.card{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 398px;
-}
-
-.card .card-image{
-    grid-column: 1;
-}
-
-.card-title{
-    grid-column: 2;
-}
-.card-text{
-    grid-column: 2;
-}
-.card-btn{
-    grid-column: 2;
-}
-
-.card
