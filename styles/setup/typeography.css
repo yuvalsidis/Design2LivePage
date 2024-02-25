@@ -4,3 +4,8 @@
     src: url(/fonts/Lato/Lato-Regular.ttf);
 }
 
+@font-face{
+    font-family: fa;
+    src: url(/fonts/fa/fa-brands-400.ttf);
+}
+
