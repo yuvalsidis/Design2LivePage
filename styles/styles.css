@@ -1,6 +1,7 @@
 /* SETUP */
 @import url(setup/typeography.css);
 @import url(setup/vars.css);
+@import url(setup/mq.css);
 
 /* BASICS */
 @import url(basics/base.css);
@@ -11,5 +12,6 @@
 @import url(components/main-header.css);
 @import url(components/main-content.css);
 @import url(components/main-footer.css);
+
 
  
