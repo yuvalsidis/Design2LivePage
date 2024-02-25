@@ -1,9 +1,8 @@
-
 /* Main Content */
-
 .main-content{
     display: grid;
     grid-template-rows: minmax(20px, 1fr) 47x;
+    border: 1px black solid;
 }
 
 .card{

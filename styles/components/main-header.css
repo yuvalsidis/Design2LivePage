@@ -59,7 +59,7 @@
 }
 .main-nav-list li:hover::before{
     opacity: 1;
-}
+} 
 
 .logo{
     font-size: 2.5em;
