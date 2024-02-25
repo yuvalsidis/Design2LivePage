@@ -1,9 +1,9 @@
 .main-header{
     display: grid;
     height: 133px;
-    grid-template-columns: minmax(20px, 1fr) minmax(auto, 522px) minmax(auto, 522px) minmax(20px, 1fr);
+    grid-template-columns: minmax(20px, 1fr) minmax(auto, 490px) minmax(auto, 490px) minmax(20px, 1fr);
     align-items: center;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid black; 
 }
 
 .main-header > .logo{
