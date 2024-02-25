@@ -65,7 +65,11 @@
     font-size: 2.5em;
 }
 
-
+.toggle-menu-btn{
+    cursor: pointer;
+    font-size: 1em;
+    width: 30px;
+}
 
 
 
