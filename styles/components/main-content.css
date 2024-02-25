@@ -70,7 +70,6 @@
     display: flex;
     text-align: center;
     grid-row: 2;
-    justify-content: space-between;
     height: 33px;
     font-size: 1.125rem;
 }

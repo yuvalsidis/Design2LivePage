@@ -1,0 +1,22 @@
+/* main-footer */
+.main-footer{
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+}
+
+
+.main-footer .logo{
+    margin-top: 80px;
+    color: #292929;
+}
+
+.main-footer .footer-social{
+    margin-bottom: 80px;
+}
+
+.main-footer .footer-rights{
+    color: #A6A6A6
+}
+
+

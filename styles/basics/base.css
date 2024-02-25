@@ -19,4 +19,6 @@ footer{
     background-color: rgba(248, 248, 248, 1);
 }
 
-
+.logo span{
+    color: green;
+}
