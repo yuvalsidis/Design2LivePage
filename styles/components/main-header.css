@@ -26,10 +26,15 @@
     width: 134px;
     height: 133px;
     text-align: center;
-    border-style:solid;
-    border-width: 0px 0.01px 0px;
-    border-color: black;
 }
+
+.main-nav-list li{
+    border-inline-start: solid 1px black;
+}
+.main-nav-list li:first-child{
+    border-inline-end: solid 1px black ;
+}
+
 
 .main-nav-list li a{
     display: inline-block;
