@@ -1,14 +1,22 @@
 /* SMALL */
-@media (min-width: 600px){
-
+@media (min-width: 600px) {
+    .main-layout .main-header{
+        grid-template-columns: minmax(20px, 1fr) minmax(auto, 140px) minmax(auto, 490px)  minmax(20px, 1fr);
+    }
 }
 
 /* MEDIUM */
-@media (min-width: 840px){
+@media (min-width: 840px) {
+    .main-layout .main-header{
+        grid-template-columns: minmax(20px, 1fr) minmax(auto, 140px) minmax(auto, 490px)  minmax(20px, 1fr);
+    }
     
 }
 
 /* LARGE */
-@media (min-width: 1040px){
-
+@media (min-width: 1040px) {
+  
+    .main-layout .main-header{
+        grid-template-columns: minmax(20px, 1fr) minmax(auto, 490px)  minmax(auto, 490px) minmax(20px, 1fr);
+    }
 }

@@ -13,7 +13,6 @@
 
 .main-header > .main-nav{
     grid-column: 3;
-    justify-self: end;
 }
 
 .main-header{
