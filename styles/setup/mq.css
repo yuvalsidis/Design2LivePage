@@ -3,6 +3,7 @@
     .main-layout .main-header{
         grid-template-columns: minmax(20px, 1fr) minmax(auto, 140px) minmax(auto, 490px)  minmax(20px, 1fr);
     }
+    
 }
 
 /* MEDIUM */
@@ -19,4 +20,5 @@
     .main-layout .main-header{
         grid-template-columns: minmax(20px, 1fr) minmax(auto, 490px)  minmax(auto, 490px) minmax(20px, 1fr);
     }
+    
 }
