@@ -42,5 +42,8 @@
     color: #A6A6A6;
 }
 
+.main-footer .footer-social li:hover{
+    background-color:RGBA(81, 111, 173, 1) ;
+}
 
 
