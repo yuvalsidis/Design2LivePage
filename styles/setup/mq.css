@@ -8,6 +8,7 @@
         background-color: #ffffffd1;
         border-inline-start: 1px solid #ccc;
         box-shadow: -2px 0px 6px 1px #000;
+        flex-direction: column;
     }
 }
 
