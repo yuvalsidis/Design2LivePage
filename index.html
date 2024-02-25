@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body class="app main-layout">
+<body class="app main-layout menu-open">
     <header class="main-header full">
         <div class="logo">Blogin<span>.</span></div>
         <nav class="main-nav">
@@ -19,7 +19,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <button class="toggle-menu-btn" type="button">☰</button>
+        <button class="toggle-menu-btn" onclick="toggleMenu()" type="button">☰</button>
     </header>
     <main class="main-content">
         <div class="card-container">
@@ -66,6 +66,12 @@
             <li><a class=" fa dribbble" href="#"></a></li>
         </ul>
     </footer>
+
+    <script>
+        function toggleMenu(){
+            document.body.classList.toggle('menu-open')
+        }
+    </script>
 </body>
 
 </html>
