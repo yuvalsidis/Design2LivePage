@@ -26,6 +26,7 @@
     width: 134px;
     height: 133px;
     text-align: center;
+    background-color:  rgba(41, 41, 41, 1);
 }
 
 .main-nav-list li{
@@ -35,14 +36,14 @@
     border-inline-end: solid 1px black ;
 }
 
-
 .main-nav-list li a{
     display: inline-block;
     line-height: 133px;
     text-decoration: none;
     color: var(--primary-2);
-    background-color: var(--primary--1);
+    background-color:rgba(41, 41, 41, 1); 
     width: 100%;
+    box-shadow: inset 0 -10px 0 0 black;
 }
 
 .main-nav-list li::before{

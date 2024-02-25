@@ -67,5 +67,8 @@
 }
 
 .post-navigation{
+    display: flex;
     grid-row: 2;
+    justify-content: space-between;
 }
+
