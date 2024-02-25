@@ -2,25 +2,50 @@
 .main-content{
     display: grid;
     grid-template-rows: minmax(20px, 1fr) 47x;
-    border: 1px black solid;
+    border-top: none;
+    padding-top: 80px;
+    gap: 80px;
 }
-
+.card-container{
+    display: grid;
+    gap: 80px;
+    grid-row: 1;
+}
 .card{
     display: grid;
-    grid-template-columns: 50% 50%;
-    height: 398px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
+    gap: 40px;
 }
 
 .card .card-image{
+    width: 100%;
     grid-column: 1;
+    grid-row: 1/4;
 }
 
 .card-title{
+    margin-inline-start: 40px;
+    margin-top: 0;
     grid-column: 2;
+    grid-row: 1;
 }
 .card-text{
+    margin-inline-start: 40px;
+    margin-top: 0;
     grid-column: 2;
+    grid-row: 2;
 }
 .card-btn{
+    margin-top: auto;
+    margin-inline-start: 40px;
+    width: 50%;
+    padding: 3%;
     grid-column: 2;
+    grid-row: 3;
+}
+
+
+.post-navigation{
+    grid-row: 2;
 }
