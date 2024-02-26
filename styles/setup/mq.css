@@ -15,7 +15,11 @@
 
     body.menu-open .main-nav-list{
         transform: translateX(0);
-    }  
+    }
+    
+    .main-header .toggle-menu-btn{
+        display: block;
+    }
 
     .main-header .main-nav-list li a {
         background-color: #ffffffd1;
